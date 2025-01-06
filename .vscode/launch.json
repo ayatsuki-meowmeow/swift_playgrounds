@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:swift_playgrounds}/demo",
+      "name": "Debug demo (demo)",
+      "program": "${workspaceFolder:swift_playgrounds}/demo/.build/debug/demo",
+      "preLaunchTask": "swift: Build Debug demo (demo)"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:swift_playgrounds}/demo",
+      "name": "Release demo (demo)",
+      "program": "${workspaceFolder:swift_playgrounds}/demo/.build/release/demo",
+      "preLaunchTask": "swift: Build Release demo (demo)"
+    }
+  ]
+}
